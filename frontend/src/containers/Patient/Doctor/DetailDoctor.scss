@@ -1,0 +1,60 @@
+.doctor-detail-container {
+  width: 100%;
+  margin-top: 80px;
+  .intro-doctor {
+    display: flex;
+    margin: 20px 100px;
+    .content-left {
+      width: 20%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin: 10px 20px;
+    }
+    .content-right {
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      padding: 10px 10px;
+      .up {
+        font-size: 20px;
+
+        h2 {
+          font-weight: 600;
+        }
+      }
+
+      .down {
+        padding-top: 10px;
+        font-size: 15px;
+        font-style: italic;
+      }
+    }
+  }
+  .schedule-doctor {
+    margin: 0 100px;
+    display: flex;
+    padding: 20px 25px;
+    min-height: 200px;
+
+    .content-left {
+      width: 50%;
+    }
+    .content-right {
+      width: 50%;
+    }
+  }
+  .wrapper-bg {
+    border-top: 1px solid #eee;
+    background-color: #f9f9f9;
+    .detail-infor-doctor {
+      padding: 20px 25px;
+      margin: 0 100px;
+      border-top: 1px solid #eee;
+      border-bottom: 1px solid #eee;
+    }
+  }
+}

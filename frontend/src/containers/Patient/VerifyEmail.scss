@@ -1,0 +1,15 @@
+.verify-email-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  .infor-booking {
+    font-size: 17px;
+    font-weight: 600;
+
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+  }
+}

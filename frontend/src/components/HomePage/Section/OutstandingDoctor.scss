@@ -1,0 +1,60 @@
+.wrapper_bg {
+  background-color: #f5f5f5;
+  .section-specialty {
+    width: 1292px;
+    height: 330px;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+    .section-container {
+      margin: 0 10px;
+      display: flex;
+      flex-direction: column;
+      .section-header {
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 0;
+        .title-section {
+          font-size: 22px;
+          font-weight: 600;
+        }
+        .btn-section {
+          float: right;
+          padding: 10px 15px;
+          border: none;
+          outline: none;
+          display: block;
+          background-color: #ebebeb;
+          color: #000000;
+          cursor: pointer;
+          &:hover {
+            color: #ffff;
+            background: #f7d800;
+          }
+        }
+      }
+    }
+    .section-body {
+      height: 300px;
+      .outstanding-doctor-customize {
+        padding: 0 5px;
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+        img {
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+        }
+        .outstanding-doctor-title {
+          margin-top: 20px;
+        }
+        .outstanding-doctor-subtitle {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

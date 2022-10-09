@@ -1,0 +1,27 @@
+.container-md {
+  margin-top: 72px;
+  .main-img {
+    width: 100%;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .title-handbook {
+    color: #333;
+    font-weight: bold;
+    margin: 15px 0;
+    line-height: 1.3;
+  }
+  .content-handbook {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    background: #fcfaf6;
+    padding-bottom: 30px;
+    .content-main {
+      width: 1000px;
+      margin: 20px auto;
+    }
+  }
+}

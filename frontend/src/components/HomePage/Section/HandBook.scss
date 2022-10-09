@@ -1,0 +1,13 @@
+.handbook-customize {
+  display: flex !important;
+  flex-direction: row !important;
+  cursor: pointer;
+  img {
+    width: 300px;
+  }
+  .title-handbook {
+    padding: 0 10px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+}

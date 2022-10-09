@@ -1,0 +1,40 @@
+.wapper-handbook {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  h2 {
+    margin-top: 76px;
+    text-align: center;
+  }
+}
+.container-list-handbook {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 1000px;
+  h2 {
+    padding: 10px;
+  }
+  .item {
+    :hover {
+      cursor: pointer;
+    }
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    width: 70%;
+    .item-img {
+      padding: 10px;
+      img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+    .item-name {
+      font-weight: 700;
+    }
+  }
+}

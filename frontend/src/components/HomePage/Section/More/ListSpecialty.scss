@@ -1,0 +1,25 @@
+.container-list {
+  margin-top: 76px;
+  h2 {
+    padding: 10px;
+  }
+  .item {
+    :hover {
+      cursor: pointer;
+    }
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+
+    .item-img {
+      padding: 10px;
+      img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+    .item-name {
+      font-weight: 700;
+    }
+  }
+}
